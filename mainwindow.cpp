@@ -48,7 +48,7 @@ void MainWindow::on_pushButton_2_clicked()
     }
 
 // Include call to system compression utility to perform compression.
-
+//Implement Qstrcat to fix string argument for system call
     QMessageBox::information(
                 this,
                 tr("Complete"),
