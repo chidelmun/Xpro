@@ -47,7 +47,8 @@ void MainWindow::on_pushButton_2_clicked()
         system("sleep 0.1");
     }
 
-    system("tar -czf ");
+// Include call to system compression utility to perform compression.
+
     QMessageBox::information(
                 this,
                 tr("Complete"),
